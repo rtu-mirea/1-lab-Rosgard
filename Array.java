@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Array {
     private int n;
     private int x[];
-    //Неправильный ввод
+    //Exception
     Array(int n) throws Exception {
         if (n <= 0) throw new Exception(new String("Unsupported number of elements!"));
         this.n = n;
